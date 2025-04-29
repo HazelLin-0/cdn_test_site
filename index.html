@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CDN测试网站</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <h1>CDN缓存测试页面</h1>
-    <p>当前版本: <span id="version">1.6(全站缓存)</span></p>
-    <p>最后更新时间: <span id="timestamp"></span></p>
-    
-    <script>
-        // 显示实时时间戳
-        document.getElementById('timestamp').textContent = new Date().toLocaleString();
-        // 每5秒更新时间（仅用于测试）
-        setInterval(() => {
-            document.getElementById('timestamp').textContent = new Date().toLocaleString();
-        }, 5000);
-    </script>
-    <img src="update/表情.png" alt="测试">
+    <h1>About Page</h1>
+    <a href="../">Back to Home</a>
 </body>
 </html>
